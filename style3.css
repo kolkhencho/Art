@@ -1,0 +1,49 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: url(back.jpg);
+	color: black
+	background-repeat : no-repeat;
+	display: flex;
+	background-size:cover;
+	justify-content:center;
+}
+header
+{
+	display: flex;
+	justify-content: center;
+}
+.Logo, .Top_menu
+{
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align:middle;
+}
+.Top_menu li
+{
+	margin-right: 50px;
+	display: inline-block;
+	vertical-align:middle;
+}
+.Top_menu a
+{
+	font-family: arial;
+	vertical-align:middle;
+	font-size: 27px;
+	color: black;
+	text-decoration: none;
+}
+.Top_menu a:hover
+{
+	color: #7FFFD4;
+}
+.Logo h1
+{
+	font-family : arial;
+	vertical-align:middle;
+	font-size : 45px;
+	color : black;
+}
